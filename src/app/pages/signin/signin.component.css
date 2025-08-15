@@ -1,0 +1,32 @@
+.en{
+  background: transparent;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  }
+input{
+  height: 20px;
+  width: 300px;
+  display: flex;
+  
+}
+.ev{
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}

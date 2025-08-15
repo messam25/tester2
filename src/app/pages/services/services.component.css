@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  gap: 40px;
+}
+
+.div1,
+.div2 {
+  background: transparent;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  height: 250px;
+  width: 240px;
+  padding: 40px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  
+}
+img {
+  height: auto;
+  width: 260px;
+}
+.img1{
+  height:auto;
+  width: 100;
+}
+.div1,
+.div2 :hover{
+  height: auto;
+  width: 265px;
+}
